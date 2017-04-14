@@ -1,0 +1,56 @@
+ body{
+            background-color: lightgray;
+        }
+
+        #img{
+            width:800px;
+            margin-left: 270px;
+            margin-top: 50px;
+        }
+
+        #adminTitle{
+         font-family: book antiqua;
+         font-size: 50px;
+         text-align: center;
+         background-color: #4183D7; 
+         margin-top: 50px;
+         border-radius: 10px; 
+        }
+
+        #admin{
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        }
+
+        #adminTitle img{
+        width: 120px;
+        height: 120px;
+        margin-top: -80px;
+        margin-bottom:-100px;
+        background-color: #fff;
+        }
+
+        #adminTitle p{
+            font-size: 20px;
+            color:#fff;
+        }
+
+        #blogin{
+            margin-bottom:10px;
+            padding:5px 20px;
+            color: #fff;
+            border-radius: 4px;
+            border: none;
+            border-right: 5px solid #27AE60;
+            border-bottom: 5px solid #27AE60;
+            background-color: #2ECC71;
+        }
+
+         @media screen and (max-width: 400px){
+              #header img{
+                height:100px;
+                width:100%;
+                margin-left:0;
+              }
+          }

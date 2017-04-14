@@ -1,0 +1,119 @@
+            * {
+              padding: 0;
+              margin: 0; 
+            }
+
+            li{
+               list-style-type: none;  
+             }
+
+            a{
+              text-decoration: none;
+              color:#00A5CC;
+            }
+
+            body{
+                background-color: lightgray; 
+            } 
+
+            #header{
+                margin-bottom: 25px;
+                width:100%;
+                background-color: #2196F3;
+            }
+
+            #img{
+                float:right;
+                height:75px;
+                width:50%;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            #username{
+                font-size:30px;
+                margin-top:50px;
+            }
+
+            #username img{
+                width: 60px;
+                height: 60px;
+                background-color: #fff;
+            }
+
+            #menu{
+              padding:0;
+              font-family: 'book antiqua';  
+              text-indent: 5px;
+              width:100%;
+              border-right: 5px solid black;
+              border-bottom: 5px solid black;
+              margin-top: 135px;
+              width:250px;
+              height: 80%;
+              position: absolute;
+              background:white;
+            }
+
+            #menu img{
+              width:50px;
+              height:50px;
+            }
+
+            #menu a{
+              display: block;
+              padding: 29px 0;
+              border-bottom: 3px solid black;
+            }
+
+            #menu a:hover{
+              background: blue;
+              color:white;
+              text-decoration: none;
+              padding-left: 20px;
+            }
+
+            #menu a{
+              text-decoration: none;
+            }
+
+            #menu li:last-child a{
+              border-bottom: 3px solid black;
+            } 
+
+             @media screen and (max-width: 400px){
+              #header img{
+                height:80px;
+                width:100%;
+              }
+
+              #username{
+                text-align: center;
+                margin-top:50px;
+              }
+
+              #username img{
+                width:50px;
+                height:50px;
+                margin-bottom: 5px;
+              }
+
+            }
+
+            @media screen and (max-width: 700px){
+              #header img{
+                height:80px;
+                width:100%;
+              }
+
+              #username{
+                text-align: center;
+                margin-top:50px;
+              }
+
+              #username img{
+                width:50px;
+                height:50px;
+                margin-bottom: 5px;
+              }
+            }
